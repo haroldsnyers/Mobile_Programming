@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="edittext1Value">value to convert</string>
+    <string name="euro">« euro », «in €»</string>
+    <string name="dollar">« dollar », «in $»</string>
+    <string name="buttonConvert">Convert</string>
+</resources>
