@@ -46,7 +46,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:onClick="updateText"
-                        android:text="@string/_6" />
+                        android:text="@string/_7" />
 
                     <Button
                         android:id="@+id/btn5"
@@ -54,7 +54,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:onClick="updateText"
-                        android:text="@string/_5" />
+                        android:text="@string/_8" />
 
                     <Button
                         android:id="@+id/btn4"
@@ -62,7 +62,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:onClick="updateText"
-                        android:text="@string/_4" />
+                        android:text="@string/_9" />
 
                     <Button
                         android:id="@+id/btnadd"
@@ -81,7 +81,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:onClick="updateText"
-                        android:text="@string/_3" />
+                        android:text="@string/_4" />
 
                     <Button
                         android:id="@+id/btn2"
@@ -89,7 +89,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:onClick="updateText"
-                        android:text="@string/_2" />
+                        android:text="@string/_5" />
 
                     <Button
                         android:id="@+id/btn1"
@@ -97,7 +97,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:onClick="updateText"
-                        android:text="@string/_1" />
+                        android:text="@string/_6" />
 
                     <Button
                         android:id="@+id/btnmin"
@@ -117,7 +117,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:onClick="updateText"
-                        android:text="@string/_9" />
+                        android:text="@string/_1" />
 
                     <Button
                         android:id="@+id/btn8"
@@ -125,7 +125,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:onClick="updateText"
-                        android:text="@string/_8" />
+                        android:text="@string/_2" />
 
                     <Button
                         android:id="@+id/btn9"
@@ -133,7 +133,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:onClick="updateText"
-                        android:text="@string/_7" />
+                        android:text="@string/_3" />
 
                     <Button
                         android:id="@+id/btntimes"

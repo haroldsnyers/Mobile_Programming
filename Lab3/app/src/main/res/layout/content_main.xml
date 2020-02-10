@@ -30,23 +30,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:autoText="false"
             android:gravity="center"
-            android:text="0"
+            android:text="@string/_0"
             android:textAllCaps="false" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <ProgressBar android:id="@+id/progressBar1"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:indeterminate="false"
-            android:max="10" android:padding="4dip">
-        </ProgressBar>
-
     </LinearLayout>
 
     <LinearLayout
@@ -69,20 +55,44 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn6"
+                    android:id="@+id/btn9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="updateText"
-                    android:text="6" />
+                    android:text="@string/_7" />
 
                 <Button
-                    android:id="@+id/btn5"
+                    android:id="@+id/btn8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="updateText"
-                    android:text="5" />
+                    android:text="@string/_8" />
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="updateText"
+                    android:text="@string/_9" />
+
+                <Button
+                    android:id="@+id/btntimes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="updateText"
+                    android:text="@string/add" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btn4"
@@ -90,7 +100,23 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="updateText"
-                    android:text="4" />
+                    android:text="@string/_4" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="updateText"
+                    android:text="@string/_5" />
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="updateText"
+                    android:text="@string/_6" />
 
                 <Button
                     android:id="@+id/btnadd"
@@ -98,7 +124,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="updateText"
-                    android:text="+" />
+                    android:text="@string/substract" />
 
             </LinearLayout>
 
@@ -114,7 +140,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="updateText"
-                    android:text="3" />
+                    android:text="@string/_1" />
 
                 <Button
                     android:id="@+id/btn2"
@@ -122,7 +148,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="updateText"
-                    android:text="2" />
+                    android:text="@string/_2" />
 
                 <Button
                     android:id="@+id/btn1"
@@ -130,7 +156,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="updateText"
-                    android:text="1" />
+                    android:text="@string/_3" />
 
                 <Button
                     android:id="@+id/btnmin"
@@ -138,47 +164,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="updateText"
-                    android:text="-" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/btn7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="updateText"
-                    android:text="9" />
-
-                <Button
-                    android:id="@+id/btn8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="updateText"
-                    android:text="8" />
-
-                <Button
-                    android:id="@+id/btn9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="updateText"
-                    android:text="7" />
-
-                <Button
-                    android:id="@+id/btntimes"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="updateText"
-                    android:text="x" />
-
+                    android:text="@string/multiply" />
             </LinearLayout>
 
             <LinearLayout
@@ -193,7 +179,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="updateText"
-                    android:text="0" />
+                    android:text="@string/_0" />
 
                 <Button
                     android:id="@+id/btndiv"
@@ -201,18 +187,18 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="updateText"
-                    android:text="/" />
+                    android:text="@string/divide" />
             </LinearLayout>
 
         </LinearLayout>
 
         <Button
-            android:id="@+id/btnequals"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="calculate"
-            android:text="=" />
+        android:id="@+id/btnequals"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="calculate"
+        android:text="@string/equal" />
 
     </LinearLayout>
 

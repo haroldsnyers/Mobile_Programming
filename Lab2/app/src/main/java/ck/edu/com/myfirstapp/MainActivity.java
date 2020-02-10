@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         btnEqual.setEnabled(false);
 
         layout.addView(btnEqual);
-
+//
         equal = findViewById(R.id.btnequals);
     }
 
