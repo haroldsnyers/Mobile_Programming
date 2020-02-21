@@ -1,3 +1,4 @@
+import java.io.BufferedInputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.Socket;
@@ -16,15 +17,28 @@ public class MyCalculusRunnable implements Runnable {
             DataInputStream dis = new DataInputStream(sock.getInputStream());
             DataOutputStream dos = new DataOutputStream(sock.getOutputStream());
 
-            // read op1, op2 and the opreation to make
-            Double op1 = dis.readDouble();
-            char op = dis.readChar();
-            Double op2 = dis.readDouble();
+            // read length of file send as int to server
+            int length = dis.readInt();
+            System.out.println(length);
+            // define byte array
+            byte[] array = new byte[length];
+            int index = 0;
+            // read all bytes coming from dataStream until none available
+            while (dis.available() > 0) {
+                byte b = dis.readByte();
+                array[index] = b;
+                index++;
+            }
+            // convert byte array to String
+            String query = new String(array);
 
-            Double res = CalculusServer.doOp(op1, op2, op);
+            System.out.println(query);
+
+            float res = CalculusServer.doOp(query);
+            System.out.println(res);
 
             // send back result
-            dos.writeDouble(res);
+            dos.writeFloat(res);
 
             dis.close();
             dos.close();

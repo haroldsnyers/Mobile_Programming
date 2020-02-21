@@ -1,10 +1,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="ck.edu.com.calculator.MainActivity">
+    tools:context="ck.edu.com.calculator.DisplayOpAndresult">
     <item
-        android:id="@+id/results"
+        android:id="@+id/new_activity"
         android:orderInCategory="100"
-        android:title="@string/results"
+        android:title="@string/new_activity"
         app:showAsAction="never" />
 </menu>
