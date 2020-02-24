@@ -17,20 +17,8 @@ public class MyCalculusRunnable implements Runnable {
             DataInputStream dis = new DataInputStream(sock.getInputStream());
             DataOutputStream dos = new DataOutputStream(sock.getOutputStream());
 
-            // read length of file send as int to server
-            int length = dis.readInt();
-            System.out.println(length);
-            // define byte array
-            byte[] array = new byte[length];
-            int index = 0;
-            // read all bytes coming from dataStream until none available
-            while (dis.available() > 0) {
-                byte b = dis.readByte();
-                array[index] = b;
-                index++;
-            }
-            // convert byte array to String
-            String query = new String(array);
+            // read string in dataInputStream
+            String query = dis.readUTF();
 
             System.out.println(query);
 

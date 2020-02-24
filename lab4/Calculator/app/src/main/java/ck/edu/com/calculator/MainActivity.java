@@ -182,9 +182,7 @@ public class MainActivity extends AppCompatActivity {
                 dos.writeInt(length);
                 // sending data to server
                 try {
-                    for (int i = 0; i < length; i++) {
-                        dos.writeBytes(String.valueOf(queryText.charAt(i)));
-                    }
+                    dos.writeUTF(queryText);
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
                     // We were cancelled; stop sleeping!

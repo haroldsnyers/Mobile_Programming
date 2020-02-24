@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bdd8178-78ab-48f1-814f-2b809ad70103" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Calculator/app/src/main/java/ck/edu/com/calculator/DisplayOpAndresult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/app/src/main/res/layout/activity_display_op_and_result.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/app/src/main/res/layout/content_display.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/app/src/main/res/menu/menu_second.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/app/src/main/res/values/ids.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/app/src/main/java/ck/edu/com/myfirstapp/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/app/src/main/res/layout/content_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/app/src/main/res/layout/content_main_grid.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/app/src/main/res/layout/content_main_table.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/app/src/main/res/values/dimens.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/app/src/main/res/values/ids.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab3/app/src/main/java/ck/edu/com/myapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/app/src/main/java/ck/edu/com/myapp/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab3/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab3/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/app/src/main/java/ck/edu/com/calculator/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/app/src/main/java/ck/edu/com/calculator/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculusServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculusServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyCalculusRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyCalculusRunnable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyCalculusRunnable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+            <state relative-caret-position="476">
+              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +76,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,12 +116,13 @@
       <updated>1581111534682</updated>
       <workItem from="1581111535958" duration="1496000" />
       <workItem from="1582204695538" duration="13145000" />
-      <workItem from="1582295862385" duration="599000" />
+      <workItem from="1582295862385" duration="1379000" />
+      <workItem from="1582562321188" duration="1346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15240000" />
+    <option name="totallyTimeSpent" value="17366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -174,7 +147,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33158997" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33158997" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -202,8 +175,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MyCalculusRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+        <state relative-caret-position="476">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
