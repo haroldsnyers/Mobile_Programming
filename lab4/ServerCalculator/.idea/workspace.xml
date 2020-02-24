@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bdd8178-78ab-48f1-814f-2b809ad70103" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/app/src/main/java/ck/edu/com/calculator/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/app/src/main/java/ck/edu/com/calculator/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,12 +120,12 @@
       <workItem from="1581111535958" duration="1496000" />
       <workItem from="1582204695538" duration="13145000" />
       <workItem from="1582295862385" duration="1379000" />
-      <workItem from="1582562321188" duration="1346000" />
+      <workItem from="1582562321188" duration="1864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17366000" />
+    <option name="totallyTimeSpent" value="17884000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

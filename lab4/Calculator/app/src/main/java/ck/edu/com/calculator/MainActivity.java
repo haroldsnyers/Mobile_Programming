@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -49,16 +50,6 @@ public class MainActivity extends AppCompatActivity {
 
         progressBar = findViewById(R.id.progressBar1);
         progressBar.setVisibility(View.INVISIBLE);
-
-//        equal.setOnClickListener((v) -> {
-//            Context context = MainActivity.this;
-//            Class destinationActivity = DisplayOpAndresult.class;
-//            Intent startChildActivityintent = new Intent(context, destinationActivity);
-//            // getting text entered and passing along as an extra under the name of EXTRA_TEXT
-//            String text = textViewQuery.getText().toString();
-//            startChildActivityintent.putExtra(Intent.EXTRA_TEXT, text);
-//            startActivity(startChildActivityintent);
-//        });
     }
 
     @Override
@@ -85,6 +76,17 @@ public class MainActivity extends AppCompatActivity {
             startChildActivityintent.putExtra("RESULT", resultTetx);
             startActivity(startChildActivityintent);
             return true;
+        }
+        else if (id == R.id.intent) {
+            Intent sendIntent = new Intent();
+            sendIntent.setAction("hereismyapp");
+
+            // Verify that the intent will resolve to an activity
+            if (sendIntent.resolveActivity(getPackageManager()) != null) {
+                Toast.makeText(getApplicationContext(), " New intent", Toast.LENGTH_SHORT).show();
+                startActivity(sendIntent);
+
+            }
         }
 
         return super.onOptionsItemSelected(item);
@@ -177,9 +179,6 @@ public class MainActivity extends AppCompatActivity {
                 DataInputStream dis = new DataInputStream(socket.getInputStream());
                 DataOutputStream dos = new DataOutputStream(socket.getOutputStream());
 
-                int length = queryText.length();
-                // sending length of query for being able to read input stream on server
-                dos.writeInt(length);
                 // sending data to server
                 try {
                     dos.writeUTF(queryText);

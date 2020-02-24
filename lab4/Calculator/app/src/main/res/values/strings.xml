@@ -19,4 +19,5 @@
     <string name="divide">/</string>
     <string name="equal">=</string>
     <string name="title_activity_webpage">Webpage</string>
+    <string name="new_intent">New intent</string>
 </resources>

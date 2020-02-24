@@ -7,4 +7,10 @@
         android:orderInCategory="100"
         android:title="@string/results"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/intent"
+        android:orderInCategory="100"
+        android:title="@string/new_intent"
+        app:showAsAction="never" />
 </menu>
