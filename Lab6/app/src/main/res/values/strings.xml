@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyAppGeo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="internet_access_required">Camera access is required to display the camera preview.</string>
+    <string name="internet_permission_not_available">Permission is not available. Requesting camera permission.</string>
+    <string name="ok">OK</string>
+    <string name="internet_permission_available">Camera permission is available. Starting preview.</string>
+    <string name="internet_permission_granted">Camera permission was granted. Starting preview.</string>
+    <string name="internet_permission_denied">Camera permission request was denied.</string>
+
+    <string name="fine_location_access_required">Camera access is required to display the camera preview.</string>
+    <string name="fine_location_permission_not_available">Permission is not available. Requesting camera permission.</string>
+    <string name="fine_location_permission_available">Camera permission is available. Starting preview.</string>
+    <string name="fine_location_permission_granted">Camera permission was granted. Starting preview.</string>
+    <string name="fine_location_permission_denied">Camera permission request was denied.</string>
+
+    <string name="coarse_location_access_required">Camera access is required to display the camera preview.</string>
+    <string name="coarse_location_permission_not_available">Permission is not available. Requesting camera permission.</string>
+    <string name="coarse_location_permission_available">Camera permission is available. Starting preview.</string>
+    <string name="coarse_location_permission_granted">Camera permission was granted. Starting preview.</string>
+    <string name="coarse_location_permission_denied">Camera permission request was denied.</string>
+</resources>
