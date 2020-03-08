@@ -11,6 +11,7 @@ import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
@@ -28,6 +29,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     private TextView longitudeField;
     private LocationManager locationManager;
     private String provider;
+
+    private Handler handler;
+
     private View mLayout;
 
     private static final int PERMISSION_REQUEST_INTERNET = 0;
@@ -44,6 +48,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         mLayout = findViewById(R.id.main_layout);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        handler = new Handler();
+
         latituteField = (TextView) findViewById(R.id.TextView02);
         longitudeField = (TextView) findViewById(R.id.TextView04);
 
@@ -53,30 +60,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         // default
         Criteria criteria = new Criteria();
         provider = locationManager.getBestProvider(criteria, false);
-        if (ActivityCompat.checkSelfPermission(this,
-                Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
-                ActivityCompat.checkSelfPermission(this,
-                        Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            requestPermission();
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
-            return;
-        }
-        Location location = locationManager.getLastKnownLocation(provider);
 
         // Initialize the location fields
-        if (location != null) {
-            System.out.println("Provider " + provider + " has been selected.");
-            onLocationChanged(location);
-        } else {
-            latituteField.setText("Location not available");
-            longitudeField.setText("Location not available");
-        }
+        enablePermissionUser();
     }
 
     @Override
@@ -143,6 +129,46 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         locationManager.removeUpdates(this);
     }
 
+    public void enablePermissionUser() {
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+                // we perform long running task here (like audio buffering)
+                // you may want than to update some progress, then user a handler
+                if (ActivityCompat.checkSelfPermission(MainActivity.this,
+                        Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
+                        ActivityCompat.checkSelfPermission(MainActivity.this,
+                                Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                    // TODO: Consider calling
+                    //    ActivityCompat#requestPermissions
+                    // here to request the missing permissions, and then overriding
+                    requestPermission();
+                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                    //                                          int[] grantResults)
+                    // to handle the case where the user grants the permission. See the documentation
+                    // for ActivityCompat#requestPermissions for more details.
+                    return;
+                }
+                final Location location = locationManager.getLastKnownLocation(provider);
+                handler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        // make the operation on the UI, thus updating progressbar
+
+                        if (location != null) {
+                            System.out.println("Provider " + provider + " has been selected.");
+                            onLocationChanged(location);
+                        } else {
+                            latituteField.setText("Location not available");
+                            longitudeField.setText("Location not available");
+                        }
+                    }
+                });
+            }
+        };
+        new Thread(runnable).start();
+    }
+
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
@@ -197,12 +223,13 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
      */
     private void requestPermission() {
         // Permission has not been granted and must be requested.
-        if (ActivityCompat.shouldShowRequestPermissionRationale(this,
-                Manifest.permission.INTERNET)) {
+        if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.INTERNET) ||
+                ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.ACCESS_COARSE_LOCATION) ||
+                ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.ACCESS_FINE_LOCATION)) {
             // Provide an additional rationale to the user if the permission was not granted
             // and the user would benefit from additional context for the use of the permission.
             // Display a SnackBar with cda button to request the missing permission.
-            Snackbar.make(mLayout, R.string.internet_access_required,
+            Snackbar.make(mLayout, R.string.internet_access_required + '\n' + R.string.fine_location_access_required + '\n' + R.string.coarse_location_access_required,
                     Snackbar.LENGTH_INDEFINITE).setAction(R.string.ok, new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

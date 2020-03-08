@@ -2,22 +2,22 @@
     <string name="app_name">MyAppGeo</string>
     <string name="action_settings">Settings</string>
 
-    <string name="internet_access_required">Camera access is required to display the camera preview.</string>
-    <string name="internet_permission_not_available">Permission is not available. Requesting camera permission.</string>
+    <string name="internet_access_required">Internet access is required to display the camera preview.</string>
+    <string name="internet_permission_not_available">Permission is not available. Requesting Internet permission.</string>
     <string name="ok">OK</string>
-    <string name="internet_permission_available">Camera permission is available. Starting preview.</string>
-    <string name="internet_permission_granted">Camera permission was granted. Starting preview.</string>
-    <string name="internet_permission_denied">Camera permission request was denied.</string>
+    <string name="internet_permission_available">Internet permission is available. Starting preview.</string>
+    <string name="internet_permission_granted">Internet permission was granted. Starting preview.</string>
+    <string name="internet_permission_denied">Internet permission request was denied.</string>
 
-    <string name="fine_location_access_required">Camera access is required to display the camera preview.</string>
-    <string name="fine_location_permission_not_available">Permission is not available. Requesting camera permission.</string>
-    <string name="fine_location_permission_available">Camera permission is available. Starting preview.</string>
-    <string name="fine_location_permission_granted">Camera permission was granted. Starting preview.</string>
-    <string name="fine_location_permission_denied">Camera permission request was denied.</string>
+    <string name="fine_location_access_required">fine location access is required to display the camera preview.</string>
+    <string name="fine_location_permission_not_available">Permission is not available. Requesting fine location permission.</string>
+    <string name="fine_location_permission_available">fine location permission is available. Starting preview.</string>
+    <string name="fine_location_permission_granted">fine location permission was granted. Starting preview.</string>
+    <string name="fine_location_permission_denied">fine location permission request was denied.</string>
 
-    <string name="coarse_location_access_required">Camera access is required to display the camera preview.</string>
-    <string name="coarse_location_permission_not_available">Permission is not available. Requesting camera permission.</string>
-    <string name="coarse_location_permission_available">Camera permission is available. Starting preview.</string>
-    <string name="coarse_location_permission_granted">Camera permission was granted. Starting preview.</string>
-    <string name="coarse_location_permission_denied">Camera permission request was denied.</string>
+    <string name="coarse_location_access_required">Coarse location access is required to display the camera preview.</string>
+    <string name="coarse_location_permission_not_available">Permission is not available. Requesting Coarse location permission.</string>
+    <string name="coarse_location_permission_available">Coarse location permission is available. Starting preview.</string>
+    <string name="coarse_location_permission_granted">Coarse location permission was granted. Starting preview.</string>
+    <string name="coarse_location_permission_denied">Coarse location permission request was denied.</string>
 </resources>
