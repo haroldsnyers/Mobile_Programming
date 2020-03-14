@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bdd8178-78ab-48f1-814f-2b809ad70103" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/java/ck/edu/com/myapplication/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/java/ck/edu/com/myapplication/CalculatorFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/java/ck/edu/com/myapplication/TextChangedListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/java/ck/edu/com/myapplication/TextViewFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/java/ck/edu/com/myapplication/firstFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/layout/activity_calculator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/layout/content_calculator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/layout/fragment_calculator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/layout/fragment_textview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/menu/menu_calculator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/java/ck/edu/com/myapplication/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/java/ck/edu/com/myapplication/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab5/MyApplication/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab6/app/src/main/java/ck/edu/com/myappgeo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab6/app/src/main/java/ck/edu/com/myappgeo/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab6/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab6/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5bdd8178-78ab-48f1-814f-2b809ad70103" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,11 +120,12 @@
       <workItem from="1583079786033" duration="282000" />
       <workItem from="1583682993217" duration="1159000" />
       <workItem from="1583690376248" duration="621000" />
+      <workItem from="1583710641130" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21151000" />
+    <option name="totallyTimeSpent" value="21192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -158,6 +138,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="0" width="940" height="1086" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
