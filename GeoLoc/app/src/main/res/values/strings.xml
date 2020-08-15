@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GeoLoc</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitute">Longitute:</string>
+    <string name="unknown">unknown</string>
+</resources>

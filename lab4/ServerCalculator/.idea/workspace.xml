@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bdd8178-78ab-48f1-814f-2b809ad70103" name="Default Changelist" comment="" />
+    <list default="true" id="5bdd8178-78ab-48f1-814f-2b809ad70103" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/androidTest/java/ck/edu/com/hockey_tracker/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/java/ck/edu/com/hockey_tracker/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_menu_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_menu_camera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_menu_gallery.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_menu_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_menu_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_menu_manage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_menu_previous_matches.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_menu_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_menu_send.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_menu_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_menu_share.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/ic_menu_slideshow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/layout/content_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/layout/nav_header_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/menu/main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/values-v21/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/app/src/test/java/ck/edu/com/hockey_tracker/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hockey_tracker/settings.gradle" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +113,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="width" value="1880" />
-    <option name="height" value="2172" />
+    <option name="x" value="937" />
+    <option name="y" value="-1080" />
+    <option name="width" value="960" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -71,7 +129,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582285838071" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Advances_java/Lab_Servlets_glassfish" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
@@ -121,11 +179,12 @@
       <workItem from="1583682993217" duration="1159000" />
       <workItem from="1583690376248" duration="621000" />
       <workItem from="1583710641130" duration="41000" />
+      <workItem from="1585064066354" duration="212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21192000" />
+    <option name="totallyTimeSpent" value="21404000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -137,7 +196,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="0" width="940" height="1086" extended-state="0" />
+    <frame x="937" y="-1080" width="960" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -150,7 +209,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33158997" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33151582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
